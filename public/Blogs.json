@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "cover": "https://example.com/images/post1-cover.jpg",
+    "title": "The Future of AI: Trends to Watch in 2025",
+    "author_img": "https://example.com/images/authors/jane-doe.jpg",
+    "author": "Jane Doe",
+    "posted_date": "2025-04-01",
+    "reading_time": "6 min read",
+    "hashtags": ["#AI", "#Technology", "#Future"]
+  },
+  {
+    "id": 2,
+    "cover": "https://example.com/images/post2-cover.jpg",
+    "title": "Mastering JavaScript in Modern Web Development",
+    "author_img": "https://example.com/images/authors/john-smith.jpg",
+    "author": "John Smith",
+    "posted_date": "2025-03-27",
+    "reading_time": "8 min read",
+    "hashtags": ["#JavaScript", "#WebDev", "#Coding"]
+  },
+  {
+    "id": 3,
+    "cover": "https://example.com/images/post3-cover.jpg",
+    "title": "10 Productivity Hacks for Remote Work",
+    "author_img": "https://example.com/images/authors/sarah-lee.jpg",
+    "author": "Sarah Lee",
+    "posted_date": "2025-04-03",
+    "reading_time": "5 min read",
+    "hashtags": ["#Productivity", "#RemoteWork", "#LifeHacks"]
+  },
+  {
+    "id": 3,
+    "cover": "https://example.com/images/post3-cover.jpg",
+    "title": "10 Productivity Hacks for Remote Work",
+    "author_img": "https://example.com/images/authors/sarah-lee.jpg",
+    "author": "Sarah Lee",
+    "posted_date": "2025-04-03",
+    "reading_time": "5 min read",
+    "hashtags": ["#Productivity", "#RemoteWork", "#LifeHacks"]
+  }
+]
