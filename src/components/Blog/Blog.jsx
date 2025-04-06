@@ -1,8 +1,9 @@
 import React from "react";
 import { FaBookmark } from "react-icons/fa6";
 
-const blog = ({ blog }) => {
-  console.log(blog);
+const blog = ({ blog, handelbookmark, handelMarkAsRead }) => {
+  console.log(handelbookmark);
+  // console.log(blog);
   return (
     <div>
       <div className="card bg-base-100 w-96 shadow-sm">
@@ -16,7 +17,10 @@ const blog = ({ blog }) => {
           <div className="author flex justify-around items-center">
             <h3>{blog.author}</h3>
             <img className="w-16" src={blog.author_img} alt="" />
-            <FaBookmark />
+            <button onClick={() => handelbookmark(blog)}>
+              {" "}
+              <FaBookmark size={25} />
+            </button>
           </div>
           <h2 className="card-title">{blog.title}</h2>
           <p>
@@ -31,7 +35,12 @@ const blog = ({ blog }) => {
             </div>
           }
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Mark as read</button>
+            <button
+              onClick={() => handelMarkAsRead(blog.reading_time, blog.id)}
+              className="btn btn-primary"
+            >
+              Mark as read
+            </button>
           </div>
         </div>
       </div>
